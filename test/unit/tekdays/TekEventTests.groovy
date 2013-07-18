@@ -11,7 +11,15 @@ import org.junit.*
 @TestFor(TekEvent)
 class TekEventTests {
 
-    void testSomething() {
-       fail "Implement me"
+    void testToString() {
+        def tekEvent = new TekEvent(name: 'Groovy One',
+                                    city: 'San Francisco, CA',
+                                    organizer: 'John Doe',
+                                    venue: 'Moscone Center',
+                                    startDate: new Date('6/2/2014'),
+                                    endDate: new Date('6/5/2014'),
+                                    description: 'This conference will cover...')
+
+        assertEquals 'Groovy One, San Francisco, CA', tekEvent.toString()
     }
 }
