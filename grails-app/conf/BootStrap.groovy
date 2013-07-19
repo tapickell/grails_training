@@ -1,3 +1,5 @@
+import tekdays.TekEvent
+
 class BootStrap {
 
     def init = { servletContext ->
@@ -13,8 +15,8 @@ class BootStrap {
             event1.errors.allErrors.each { error -> println "An error ocured with event1: ${error}" }
         }
 
-        def evnet2 = new TekEvent(name: 'Ruby Fest',
-                                  city: "Saint Louis, MO',
+        def event2 = new TekEvent(name: 'Ruby Fest',
+                                  city: 'Saint Louis, MO',
                                   organizer: 'Jane Doe',
                                   venue: 'TBD',
                                   startDate: new Date('9/19/2013'),
