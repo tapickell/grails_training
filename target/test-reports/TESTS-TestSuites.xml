@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Pickles-MBP.local" id="0" name="TekEventTests" package="tekdays" tests="1" time="0.956" timestamp="2013-07-18T21:39:53">
+      <properties />
+
+      <testcase classname="tekdays.TekEventTests" name="testToString" time="0.907" />
+
+      <system-out><![CDATA[--Output from testToString--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testToString--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
